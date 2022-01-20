@@ -1,0 +1,35 @@
+.background-blur-1{
+    position: absolute;
+
+    background: linear-gradient(0deg, #FFC42C 1.71%, #FFD600 96.65%);
+    opacity: 0.4;
+    border-radius: 0px 0px 56px 56px;
+}
+.background-blur{
+    position: absolute;
+    left: -1.01%;
+    right: 0.43%;
+    top: -0.37%;
+    bottom: -13.26%;
+}
+.background-frame{
+    position: absolute;
+    width: 1915px;
+    height: 872px;
+    left: -60px;
+    top: -100px;
+}
+.background-frame-1{
+    position: absolute;
+    width: 621px;
+    height: 226px;
+    left: -67px;
+    top: 55px;
+}
+.background-frame-2{
+    position: absolute;
+    width: 579px;
+    height: 218px;
+    left: 1300px;
+    top: 50px;
+}
