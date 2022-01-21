@@ -289,9 +289,8 @@
     width: 1520px;
     left: 200px;
     top: 300px;
-    border-radius: 25px;
+    border-radius: 40px;
     background-color:#FDE8B3;
-;
     box-shadow: 3px 6px 0px 5px #FFCA7B;
     border: 3px dashed #FFB489;
 }
@@ -299,7 +298,7 @@
 .table-main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 15px;
+    padding: 30px;
     gap: 15px;
 }
 .price-detail{
@@ -345,3 +344,219 @@
     bottom: 47.03%;
 }
 
+.table-contact{
+    position: absolute;
+    height: 606px;
+    width: 926px;
+    left: 350px;
+    top: 300px;
+    border-radius: 40px;
+    box-shadow: 3px 6px 0px 5px #FFCA7B;
+    border: 3px dashed #FFB489;
+
+
+    background: #FFF6D4;
+}
+
+.table-address{
+    position: absolute;
+    height: 165px;
+    width: 500px;
+    left: 1300px;
+    top: 300px;
+    box-shadow: 3px 6px 0px 5px #FFCA7B;
+    border: 3px dashed #FFB489;
+    border-radius: 40px;
+    background-color: #FFF6D4;
+
+}
+.table-email{
+    position: absolute;
+    height: 165px;
+    width: 500px;
+    left: 1300px;
+    top: 520px;
+    box-shadow: 3px 6px 0px 5px #FFCA7B;
+    border: 3px dashed #FFB489;
+    border-radius: 40px;
+    background-color: #FFF6D4;
+
+}
+.table-phone{
+    position: absolute;
+    height: 165px;
+    width: 500px;
+    left: 1300px;
+    top: 737px;
+    box-shadow: 3px 6px 0px 5px #FFCA7B;
+    border: 3px dashed #FFB489;
+    border-radius: 40px;
+    background-color: #FFF6D4;
+
+}
+
+.title-contact{
+    position: absolute;
+    top: 10px;
+    padding: 30px;
+}
+
+form{
+    position: absolute;
+    width: 293px;
+    height: 56px;
+    left: 30px;
+    top: 120px;
+}
+.name{
+    position: absolute;
+    width: 293px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    padding: 0px 0px 0px 10px;
+    border:none;
+}
+.email{
+    position: absolute;
+    width: 491px;
+    height: 56px;
+    left: 330px;
+
+    /* W */
+
+    background: #FFFFFF;
+    border: none;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    padding: 0px 0px 0px 10px;
+}
+.phone-contact{
+    position: absolute;
+    width: 293px;
+    height: 56px;
+    left: 0px;
+    top: 80px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    padding: 0px 0px 0px 10px;
+    border:none;
+}
+
+.address{
+    position: absolute;
+    width: 491px;
+    height: 56px;
+    left: 330px;
+    top: 80px;
+
+    /* W */
+
+    background: #FFFFFF;
+    border: none;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    padding: 0px 0px 0px 10px;
+}
+
+.mess{
+    position: absolute;
+    width: 808px;
+    height: 152px;
+    left: 0px;
+    top: 170px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+    border: none;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    clear:left;
+    min-width: 825px;
+    max-width: 825px;
+    min-height:200px;
+    max-height:200px;
+    padding: 10px 0px 0px 10px;
+}
+
+.btn-contact{
+    position: absolute;
+    left: 250px;
+    top: 400px;
+    background: #FF000A;
+    height: 60.868553161621094px;
+    width: 368.01788330078125px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 2px 0px 2px #BD000B;
+    color: #FFFFFF;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 18px;
+}
+.btn-contact:hover{
+    background-color: #e90a15fd;
+}
+
+.table-address img{
+    position: absolute;
+    left: 8.91%;
+    right: 79.59%;
+    top: 24.64%;
+    bottom: 45.41%;
+}
+
+.table-email img{
+    position: absolute;
+    left: 8.91%;
+    right: 79.59%;
+    top: 29.27%;
+    bottom: 40.49%;
+}
+
+.table-phone img{
+    position: absolute;
+    left: 8.91%;
+    right: 79.59%;
+    top: 29.27%;
+    bottom: 40.49%;
+}
+.address-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 358px;
+    height: 89px;
+    left: 134px;
+    top: 30px;
+}
+.address-1 p{
+    position: absolute;
+    top: 40px;
+    color: #23221F;
+    opacity: 0.7;
+    font-size: 18px;
+
+}

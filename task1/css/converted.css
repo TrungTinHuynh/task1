@@ -67,3 +67,12 @@
     line-height: 100px;
     color: #ffffff;
 }
+
+.icon-contact{
+    position: absolute;
+    width: 400px;
+    height: 594px;
+    left: -100px;
+    top: 300px;
+    z-index: 2;
+}
