@@ -560,3 +560,98 @@ form{
     font-size: 18px;
 
 }
+
+.icon-checkout{
+    position: absolute;
+    left: 1030px;
+    right: 31.05%;
+    top: 230px;
+    bottom: 5.45%;
+
+}
+.icon-index{
+    position: absolute;
+    left: 899px;
+    right: 31.05%;
+    top: 375px;
+    bottom: 5.45%;
+
+}
+
+.table-checkout{
+    position: absolute;
+    height: 630px;
+    width: 926px;
+    left: 200px;
+    top: 300px;
+    border-radius: 40px;
+    box-shadow: 3px 6px 0px 5px #FDE8B3;;
+    border: 3px dashed #FFB489;
+
+
+    background: #FFF6D4;
+}
+.table-index{
+    position: absolute;
+    height: 575px;
+    width: 926px;
+    left: 200px;
+    top: 375px;
+    border-radius: 40px;
+    box-shadow: 3px 6px 0px 5px #FDE8B3;;
+    border: 3px dashed #FFB489;
+
+
+    background: #FFF6D4;
+}
+
+.table-checkout-1{
+    position: absolute;
+    height: 630px;
+    width: 539.0003051757812px;
+    left: 1175px;
+    top: 300px;
+    border-radius: 40px;
+    box-shadow: 3px 6px 0px 5px #FDE8B3;;
+    border: 3px dashed #FFB489;
+
+
+    background: #FFF6D4;
+}
+.table-index-1{
+    position: absolute;
+    height: 575px;
+    width: 539.0003051757812px;
+    left: 1175px;
+    top: 375px;
+    border-radius: 40px;
+    box-shadow: 3px 6px 0px 5px #FDE8B3;;
+    border: 3px dashed #FFB489;
+
+
+    background: #FFF6D4;
+}
+
+.icon-checkout-avatar{
+    position: absolute;
+    width: 300px;
+    height: 594px;
+    left: -70px;
+    top: 300px;
+    z-index: 2;
+}
+.icon-index-avatar{
+    position: absolute;
+    width: 290px;
+    height: 500px;
+    left: -50px;
+    top: 460px;
+    z-index: 2;
+}
+.icon-index-avatar-1{
+    position: absolute;
+    width: 788px;
+    height: 443px;
+    left: 950px;
+    top: -30px;
+}

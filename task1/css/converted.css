@@ -34,7 +34,7 @@
     position: absolute;
     left: 42.03%;
     right: 50.47%;
-    top: 16.58%;
+    top: 13%;
     bottom: 64.86%;
 }
 
@@ -43,14 +43,14 @@
     width: 147.37px;
     height: 210px;
     left: -30px;
-    top: 321px;
+    top: 250px;
 }
 
 .logo-1{
     position: absolute;
     left: 10.42%;
     right: 80.16%;
-    top: 14.22%;
+    top: 7%;
     bottom: 72.64%;
 }
 .title-1{
@@ -58,7 +58,7 @@
     width: 400px;
     height: 100px;
     left: 397px;
-    top: 50px;
+    top: -10px;
 
     font-family: 'Black Han Sans', sans-serif;
     font-style: normal;
@@ -70,9 +70,9 @@
 
 .icon-contact{
     position: absolute;
-    width: 400px;
+    width: 360px;
     height: 594px;
-    left: -100px;
+    left: -70px;
     top: 300px;
     z-index: 2;
 }
