@@ -1,0 +1,101 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: Montserrat;
+    font-size: normal;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.celendar{
+    position: relative;
+    width: 518px;
+    height: 460px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
+    border-radius: 32px;
+}
+.month{
+    position: absolute;
+    display: flex;
+    width: 222px;
+    height: 36px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    top: 15px;
+    left: 36px;
+}
+.month i{
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.month p{
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    padding: 0px 5px 0px 5px;
+}
+
+.weekdays{
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    left: 0px;
+    top: 50px;
+
+    /* 24 bold */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Yellow / 2 */
+
+    color: #FF8A00;
+}
+
+.weekdays div{
+    padding-right: 38px;
+}
+
+.days{
+    position: absolute;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 120px;
+    left: 0px;
+}
+.days div{
+    padding: 10px;
+    width: calc(320px/7);
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today){
+    background-color: #FFFFFF;
+    border: 0.5px solid #777;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prev-date,.next-date{
+    opacity: 0.0;
+}
+
+.today{
+    border-radius: 10px;
+    background: #FF8A00;
+}
