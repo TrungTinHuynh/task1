@@ -193,11 +193,11 @@
     margin: 4px 0px 5px 5px;
 }
 
-.address{
+.address-event{
     color: #6C7272;
 }
 
-.date{
+.date-event{
     margin: 4px 0px 0px 5px;
     display: flex;
     align-items: center;
@@ -279,6 +279,10 @@
 }
 .icon-1{
     color: #FFB809;
+}
+.icon-2{
+    color: #FFB809;
+    width: 30px;
 }
 .date-color{
     color: #444444;
